@@ -1,0 +1,72 @@
+html {
+	background-image: url("./img/background.jpeg");
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 200px 1fr;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas: "title title title title" "player1 player2 player3 player5" "player4 player6 player7 player8";
+}
+
+h2 {
+	grid-area: title;
+	justify-self: center;
+}
+
+.player1 {
+	grid-area: player1;
+	justify-self: center;
+}
+.player2 {
+	grid-area: player2;
+	justify-self: center;
+}
+.player3 {
+	grid-area: player3;
+	justify-self: center;
+}
+.player4 {
+	grid-area: player4;
+	justify-self: center;
+}
+.player5 {
+	grid-area: player5;
+	justify-self: center;
+}
+.player6 {
+	grid-area: player6;
+	justify-self: center;
+}
+.player7 {
+	grid-area: player7;
+	justify-self: center;
+}
+.player8 {
+	grid-area: player8;
+	justify-self: center;
+}
+
+article {
+	justify-self: center;
+	align-self: center;
+	background-color: #ffffff;
+}
+
+h4 {
+	text-align: center;
+}
